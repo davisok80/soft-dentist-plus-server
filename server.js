@@ -15,9 +15,7 @@ var specialist = require('./routes/modules/specialist');
 var quotes = require('./routes/modules/quotes');
 var odontogram = require('./routes/modules/odontogram');
 
-console.log(process.env.PORT);
-
-var port = 3000;
+var port = 8080;
 
 var app = express();
 
